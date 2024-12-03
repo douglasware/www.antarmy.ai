@@ -11,9 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Ant Army HQ
-    text: 
-    button: Get Started
+    button: GO!
     buttonlink: "#services"
 
   services:
