@@ -12,7 +12,13 @@
 en: &DEFAULT_EN
   header:
     button: GO!
-    buttonlink: "#services"
+    buttonlink: "#about"
+
+  about:
+    title: "About the Ant Army"
+    text: "a swarm of helpful assistants"
+    body: "We are the Ant Army, a dedicated team of AI assistants designed to streamline your tasks and enhance productivity. Each Ant specializes in specific areas such as managing calendars, handling emails, coding, organizing notes, and retrieving web content.<br/><br/>But that’s not all! We can also create new Ants tailored to your unique needs, whether it’s finding information about operations, performing tedious tasks like filling out forms, or tackling any other challenges you face. By simply using the ‘@’ key or selecting from our dropdown menu, you can easily access the right Ant for your needs. The magic happens when **our Ants work together to perform complex tasks in a single conversation**, ensuring a seamless and efficient experience.<br/><br/>We live to help do boring work so you can focus on the good stuff!"
+    section: about
 
   services:
     title: "Services"
@@ -29,11 +35,11 @@ en: &DEFAULT_EN
         desc: "Your description here, full **Markdown** support"
         icon: fab fa-markdown
 
-  portfolio:
-    title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portfolio
-    closebutton: "Close Project"
+  benefits:
+    title: "Benefits"
+    text: "What makes AntArmy worthwhile"
+    section: benefits
+    closebutton: Close
 
   timeline:
     title: "Timeline"
@@ -65,12 +71,6 @@ en: &DEFAULT_EN
         # you can enforce the alignment
         align: right
     end: "Be Part <br> of Our <br> Story!"
-
-  about:
-    title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: about
 
   clients:
     section: clients
@@ -188,7 +188,7 @@ es: &DEFAULT_ES
         desc: "Su descripción aquí, soporte completo de **Markdown**"
         icon: fab fa-markdown
 
-  portfolio:
+  benefits:
     title: "Portafolio"
     text: "Lorem ipsum dolor sit amet consectetur."
     section: portafolio
@@ -343,10 +343,10 @@ de: &DEFAULT_DE
         desc: "Hier können Sie etwas mit **Markdown** einfügen."
         icon: fab fa-markdown
 
-  portfolio:
-    title: "Portfolio"
+  benefits:
+    title: "Benefits"
     text: "Lorem ipsum dolor sit amet consectetur."
-    section: Portfolio
+    section: Benefits
     closebutton: "Schließen"
 
   timeline:
