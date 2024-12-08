@@ -15,12 +15,10 @@ en: &DEFAULT_EN
       section: about
     - title: "Benefits"
       section: benefits      
-    - title: "Services"
+    - title: "Products & Services"
       section: services
-    - title: "Timeline"
+    - title: "Ants"
       section: timeline
-    - title: "Team"
-      section: team
     - title: "Contact"
       section: contact
 

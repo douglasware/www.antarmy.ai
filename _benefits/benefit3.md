@@ -8,8 +8,6 @@ caption:
   subtitle: Keep your secrets secret
   thumbnail: assets/img/benefits/03-thumbnail.jpg
 ---
-## Unlock Unmatched Privacy with Ant Army
-
 In today's digital landscape, safeguarding your privacy is more important than ever. With Ant Army, you can have peace of mind knowing that your conversations are entirely private and secure, operating exclusively in your own cloud environment. Unlike public shared platforms, where your data may be stored and accessed by third parties, including us, Ant Army ensures that your information remains confidential and protected.
 
 ### Why Choose Ant Army for Your Privacy Needs?

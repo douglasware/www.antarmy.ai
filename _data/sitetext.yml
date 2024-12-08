@@ -21,19 +21,19 @@ en: &DEFAULT_EN
     section: about
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Products and Services"
+    text: "From start to finish"
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "AntArmy Chat"
+        desc: "The power of ChatGPT in your private cloud connected to your systems and data"
+        icon: fas fa-comment 
+      - title: "AntRunner Tools"
+        desc: "[Open source tools](https://github.com/douglasware/AntRunner) to make it easy to build, test, and use assistants in AntArmy Chat and other systems"
+        icon: fas fa-wrench 
+      - title: "Custom Assistants and Applications"
+        desc: "We make ants, Copilots, GPTs, and all manner of agent based applications.<br/>More than chatbots - we build systems that do real work"
+        icon: fas fa-code 
 
   benefits:
     title: "Benefits"

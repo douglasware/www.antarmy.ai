@@ -8,7 +8,6 @@ caption:
   subtitle: For your eyes only
   thumbnail: assets/img/benefits/05-thumbnail.jpg
 ---
-## Elevating Security with Microsoft Entra ID and Delegated User Authentication
 
 Ant Army combines cutting-edge security features with user-friendly design, ensuring that data protection is both effective and unobtrusive. With Microsoft Entra ID and delegated user authentication, users can confidently engage with the platform, knowing their information is secure and under their control.
 

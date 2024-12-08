@@ -1,5 +1,5 @@
 ---
-title: Cost Effective
+title: Cost-Effective AI Solutions for Your Business
 subtitle: Low fixed costs. Pay for what you use!
 image: assets/img/benefits/04-full.jpg
 alt: 
@@ -9,8 +9,6 @@ caption:
   subtitle: Lower operational expenses
   thumbnail: assets/img/benefits/04-thumbnail.jpg
 ---
-
-## Cost-Effective AI Solutions for Your Business
 
 In the rapidly evolving digital landscape, organizations require robust tools that enhance productivity while remaining budget-friendly. Ant Army offers a compelling alternative to Microsoft Copilot and ChatGPT, providing advanced AI assistance without the associated high costs.
 

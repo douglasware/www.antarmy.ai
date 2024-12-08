@@ -2,11 +2,11 @@ body { overflow-x: hidden; font-family: "Roboto Slab", -apple-system, BlinkMacSy
 
 p { line-height: 1.75; }
 
-a { color: #fed136; }
+a { color: #b5141d; }
 
-a:hover { color: #fec503; }
+a:hover { color: #fed136; }
 
-.text-primary { color: #fed136 !important; }
+.text-primary { color: #b5141d !important; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: 700; font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
@@ -32,7 +32,7 @@ img::-moz-selection { background: transparent; }
 
 .btn-primary { background-color: #fed136; border-color: #fed136; }
 
-.btn-primary:active, .btn-primary:focus, .btn-primary:hover { background-color: #fec810 !important; border-color: #fec810 !important; color: white; }
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover { background-color: #b5141d!important; border-color: #b5141d!important; color: white; }
 
 .btn-primary:active, .btn-primary:focus { box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important; }
 
@@ -70,7 +70,7 @@ header.masthead .intro-text .intro-heading { font-size: 50px; font-weight: 700; 
 
 #benefits .benefits-item .benefits-link { position: relative; display: block; max-width: 400px; margin: 0 auto; cursor: pointer; }
 
-#benefits .benefits-item .benefits-link .benefits-hover { position: absolute; width: 100%; height: 100%; -webkit-transition: all ease 0.5s; -moz-transition: all ease 0.5s; transition: all ease 0.5s; opacity: 0; background: rgba(254, 209, 54, 0.9); }
+#benefits .benefits-item .benefits-link .benefits-hover { position: absolute; width: 100%; height: 100%; -webkit-transition: all ease 0.5s; -moz-transition: all ease 0.5s; transition: all ease 0.5s; opacity: 0; background: rgba(181, 20, 29, 0.5); }
 
 #benefits .benefits-item .benefits-link .benefits-hover:hover { opacity: 1; }
 
