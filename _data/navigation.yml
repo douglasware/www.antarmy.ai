@@ -18,9 +18,9 @@ en: &DEFAULT_EN
     - title: "Products & Services"
       section: services
     - title: "Ants"
-      section: timeline
+      section: cast
     - title: "Contact"
-      section: contact
+      url: mailto://sales@antarmy.ai?subject=Request demonstration
 
 en-US:
   <<: *DEFAULT_EN

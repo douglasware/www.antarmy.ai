@@ -31,8 +31,8 @@ en: &DEFAULT_EN
       - title: "AntRunner Tools"
         desc: "[Open source tools](https://github.com/douglasware/AntRunner) to make it easy to build, test, and use assistants in AntArmy Chat and other systems"
         icon: fas fa-wrench 
-      - title: "Custom Assistants and Applications"
-        desc: "We make ants, Copilots, GPTs, and all manner of agent based applications.<br/>More than chatbots - we build systems that do real work"
+      - title: "Custom Ants and Apps"
+        desc: "More than chatbots - We make ants, Copilots, GPTs, and all manner of agent based applications"
         icon: fas fa-code 
 
   benefits:
@@ -41,91 +41,40 @@ en: &DEFAULT_EN
     section: benefits
     closebutton: Close
 
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
+  cast:
+    title: "Meet the Ants"
+    text: "One ant is no ants - together we are strong!"
+    section: cast
     # left is the default
     #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+    cast-members:
+      - title: "Guide Ants"
+        desc: "We are your guide to using AntArmy chat and the other members of the Ant Army"
+        image: assets/img/ants/guide.png
         alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+      - title: "Web Ants"
+        desc: "The web ants search the web and read pages looking for the answers to your questions. This trust-worthy team reads whole pages instead of relying on snippets and making up the rest."
+        image: assets/img/ants/web.png
         alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
-
-  clients:
-    section: clients
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: team
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
+      - title: "Note Ants"
+        desc: "Note ants remember and recall using OneNote notebooks. Search results, email messages, Word documents? Whatever it is they can save information from one chat and use it in others."
+        image: assets/img/ants/note.png
+      - title: "Code Ants"
+        desc: "We write and run python code for you. What kind? All kinds! We can analyze data, make charts, and create documents for Word, PowerPoint, and Excel!"
+        image: assets/img/ants/code.png
+      - title: "OneDrive Ants"
+        desc: "OneDrive ants can read and write files with OneDrive. Use them with Code Ants to retrieve an Excel file for anlysis or with Web Ants to create and save a presentation with information from the web!"
+        image: assets/img/ants/onedrive.png
+      - title: "Mail Ants"
+        desc: "Mail ants can find, read, write, and send email for you with Outlook and Exchange. Want to know more about the sender? They work great with Web Ants!"
+        image: assets/img/ants/mail.png                
+      - title: "Calendar Ants"
+        desc: "Calendar ants help manage your schedule. They can read your calendar and manage appointments. They work great with Mail Ants!"
+        image: assets/img/ants/calendar.png                        
+      - title: "Chat Ants"
+        desc: "Sometimes you just need someone to talk to for advice. Chat Ants don't use tools but they can tell stories, proofread text and give advice!"
+        image: assets/img/ants/chat.png
+    end: "Your Ants Here!"
 
   contact:
     title: "Contact Us"
@@ -194,32 +143,32 @@ es: &DEFAULT_ES
     section: portafolio
     closebutton: "Cerrar Proyecto"
 
-  timeline:
+  cast:
     title: "Cronología"
-    text: "Lorem ipsum timeline"
+    text: "Lorem ipsum cast"
     section: cronologia
     # left is the default
     #start_align: "left"
-    events:
+    cast-members:
       - title: "Nuestro Humilde Comienzo"
         year: "2009-2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+        image: assets/img/cast/1.jpg
         alt:
       - title: "Una Agencia nace"
         year: "March 2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+        image: assets/img/cast/2.jpg
         alt:
       - title: "La plantilla Jekyll es creada"
         year: "2019"
         desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
+        image: assets/img/cast/3.jpg
         alt: image alt text
       - title: "Título"
         year: "2009-2011"
         desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
+        image: assets/img/cast/4.jpg
         alt:
         # you can enforce the alignment
         align: right
@@ -349,32 +298,32 @@ de: &DEFAULT_DE
     section: Benefits
     closebutton: "Schließen"
 
-  timeline:
+  cast:
     title: "Geschichte"
-    text: "Lorem ipsum timeline"
+    text: "Lorem ipsum cast"
     section: Geschichte
     # left is the default
     #start_align: "left"
-    events:
+    cast-members:
       - title: "Unsere Anfänge"
         year: "2009-2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
+        image: assets/img/cast/1.jpg
         alt:
       - title: "Gründung der Firma"
         year: "März 2011"
         desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
+        image: assets/img/cast/2.jpg
         alt:
       - title: "Das Jekyll-Thema wurde erstellt"
         year: "2019"
         desc: "Ravi Riley wandelte Agency, ein auf Bootstrap basierendes Thema, in ein Jekyll-Thema um. Man kann das Jekyll-Thema als Ruby-Gem oder remotely installieren. Für mehr Informationen, schauen Sie sich die Dokumentation an."
-        image: assets/img/timeline/3.jpg
+        image: assets/img/cast/3.jpg
         alt: Bildbeschreibung
       - title: "Titel"
         year: "2009-2011"
         desc: "Hier können Sie etwas mit **Markdown** einfügen."
-        image: assets/img/timeline/4.jpg
+        image: assets/img/cast/4.jpg
         alt:
         # you can enforce the alignment
         align: right

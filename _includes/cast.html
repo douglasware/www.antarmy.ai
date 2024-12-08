@@ -1,0 +1,119 @@
+<!-- About -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+  <section class="bg-light page-section" id="{{ site.data.sitetext[site.locale].cast.section | default: "about" }}">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].cast.title | markdownify | default: "About" }}</h2>
+          <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].cast.text | default: "cast"}}</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <ul class="cast">
+      {%- assign align = site.data.sitetext[site.locale].cast.start_align -%}
+      {%- for ant in site.data.sitetext[site.locale].cast.cast-members -%}
+            {%- if align == "right" -%}
+              {%- if ant.align and ant.align == "left" -%}
+                {%- assign align = "right" -%}
+                <li>
+              {%- else -%}
+                {%- assign align = "left" %}
+                <li class="cast-inverted">
+              {% endif %}
+            {% else %}
+              {%- if ant.align and ant.align == "right" -%}
+                {%- assign align = "left" -%}
+                <li class="cast-inverted">
+              {%- else -%}
+                {%- assign align = "right" %}
+                <li>
+              {% endif %}
+            {%- endif -%}
+              <div class="cast-image">
+                <img class="rounded-circle img-fluid" src="{{ ant.image }}" alt="{{ ant.alt | default: ""}}">
+              </div>
+              <div class="cast-panel">
+                <div class="cast-heading">
+                  <h4 class="subheading">{{ ant.title }}</h4>
+                </div>
+                <div class="cast-body">
+                  <div class="text-muted">{{ ant.desc | markdownify }}</div>
+                </div>
+              </div>
+            </li>
+		  {% endfor %}	
+            
+		  {% if site.data.sitetext[site.locale].cast.end %}	
+			<li class="cast-inverted">
+              <div class="cast-image">
+                <h4>{{ site.data.sitetext[site.locale].cast.end }}</h4>
+              </div>
+            </li>
+		  {% endif %}
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+{% else %}
+<section class="bg-light page-section" id="{{ site.data.sitetext.cast.section | default: "about" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.cast.title | markdownify | default: "About" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.cast.text | default: "cast"}}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="cast">
+    {%- assign align = site.data.sitetext.cast.start_align -%}
+    {%- for ant in site.data.sitetext.cast.cast-members -%}
+          {%- if align == "right" -%}
+            {%- if ant.align and ant.align == "left" -%}
+              {%- assign align = "right" -%}
+              <li>
+            {%- else -%}
+              {%- assign align = "left" %}
+              <li class="cast-inverted">
+            {% endif %}
+          {% else %}
+            {%- if ant.align and ant.align == "right" -%}
+              {%- assign align = "left" -%}
+              <li class="cast-inverted">
+            {%- else -%}
+              {%- assign align = "right" %}
+              <li>
+            {% endif %}
+          {%- endif -%}
+            <div class="cast-image">
+              <img class="rounded-circle img-fluid" src="{{ ant.image }}" alt="{{ ant.alt | default: ""}}">
+            </div>
+            <div class="cast-panel">
+              <div class="cast-heading">
+                <h4 class="subheading">{{ ant.title }}</h4>
+              </div>
+              <div class="cast-body">
+                <div class="text-muted">{{ ant.desc | markdownify }}</div>
+              </div>
+            </div>
+          </li>
+    {% endfor %}	
+          
+    {% if site.data.sitetext.cast.end %}	
+    <li class="cast-inverted">
+            <div class="cast-image">
+              <h4>{{ site.data.sitetext.cast.end }}</h4>
+            </div>
+          </li>
+    {% endif %}
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End About -->

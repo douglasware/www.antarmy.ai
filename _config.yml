@@ -19,7 +19,7 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 title      : Go AntArmy!
 email      : dougware@elumenotion.com #this is also the email contact forms will go to
 description: "This is the homepage for AntArym.AI"
-author     : AntArmy
+author     : "[Elumenotion, LLC](https://www.elumenotion.com)"
 locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:

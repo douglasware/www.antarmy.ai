@@ -5,12 +5,12 @@
     <div class="row align-items-center">
       <div class="col-md-4">
         <span class="copyright"
-          >Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span
+          >Copyright &copy; <a href="https://www.elumenotion.com">Elumenotion, LLC</a> {{ 'now' | date: "%Y" }}</span
         >
       </div>
       <!-- Social Media -->
       <div class="col-md-4">
-        <ul class="list-inline social-buttons">
+      <!--  <ul class="list-inline social-buttons">
           {% for link in site.data.sitetext[site.locale].footer.social %}
           <li class="list-inline-item">
             {% if link.url %}
@@ -20,7 +20,7 @@
             {% endif %}
           </li>
           {% endfor %}
-        </ul>
+        </ul> -->
       </div>
       <!-- Legal -->
       <div class="col-md-4">
@@ -37,9 +37,7 @@
     {% else %}
     <div class="row align-items-center">
       <div class="col-md-4">
-        <span class="copyright"
-          >Copyright &copy; {{ site.title }} {{ 'now' | date: "%Y" }}</span
-        >
+        <span class="copyright">Copyright &copy; {{ site.author }} {{ 'now' | date: "%Y" }}</span>
       </div>
       <!-- Social Media -->
       <div class="col-md-4">
